@@ -10,6 +10,8 @@ A True Parody
 
 WASHINGTON, D.C. — In an unprecedented move, President Trump signed Executive Order 14723-56vn today, granting Senator JD Vance (R-OH) special permission to join the Boy Scouts of America at the age of 40. The order, citing "patriotic enrichment and leadership immersion," allows Vance to enter the organization as a first-year Scout, bypassing age restrictions.
 
+![4](https://github.com/user-attachments/assets/be0556c0-e7a4-4328-ae8d-80fb5ea4e6bd)
+
 “This is about going back to our roots,” Vance said in a press conference, proudly displaying his freshly earned "Fire Safety" badge. “America needs leaders who understand discipline, survival, and knot-tying. We need more young men — and, apparently, middle-aged ones — who embrace the values of scouting.”
 
 The decision has sparked debate. While supporters hail it as an inspiring example of lifelong learning, critics argue that it sets a strange precedent. “What’s next? AARP opening its doors to toddlers?” quipped political analyst Sam Whitmore.
