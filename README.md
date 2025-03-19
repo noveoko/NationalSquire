@@ -20,6 +20,7 @@ When asked if he planned to go all the way to Eagle Scout, Vance chuckled. “Th
 
 ![1](https://github.com/user-attachments/assets/daa544f9-1ba5-460a-ad47-b311d2e2a227)
 ![2](https://github.com/user-attachments/assets/11f3679c-e5ed-4a9c-8b76-cc8711aef727)
+![3](https://github.com/user-attachments/assets/f9316d50-6438-45e1-8bf5-5bda331d4faa)
 
  
 ## Legal Notice
