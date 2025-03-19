@@ -17,3 +17,14 @@ The decision has sparked debate. While supporters hail it as an inspiring exampl
 Despite the controversy, Vance has thrown himself into scouting life. He has been seen participating in troop meetings, camping trips, and even selling popcorn door-to-door. Rumors abound that he is particularly eager to earn his "Citizenship in the Nation" merit badge, though sources indicate he struggled with the written portion.
 
 When asked if he planned to go all the way to Eagle Scout, Vance chuckled. “That depends on how well I do in orienteering,” he admitted. “I’m still working on my compass skills
+
+
+## Legal Notice
+
+This website is for entertainment purposes only. It is a parody site and is not affiliated with, endorsed by, or associated with any individuals, companies, or entities referenced herein. Any similarities to real persons, businesses, or organizations are purely coincidental or satirical.
+
+All content on this site is intended as humor, satire, or opinion and should not be taken as factual statements. This website does not provide professional, legal, financial, medical, or any other form of advice.
+
+If you have any concerns regarding the content, please contact us at admin@nationalsquire.com
+
+By using this website, you acknowledge and agree that it is meant for entertainment only and you assume full responsibility for how you interpret and interact with its content.
