@@ -18,6 +18,7 @@ Despite the controversy, Vance has thrown himself into scouting life. He has bee
 
 When asked if he planned to go all the way to Eagle Scout, Vance chuckled. “That depends on how well I do in orienteering,” he admitted. “I’m still working on my compass skills
 
+![1](https://github.com/user-attachments/assets/daa544f9-1ba5-460a-ad47-b311d2e2a227)
 
 ## Legal Notice
 
