@@ -6,6 +6,8 @@ A True Parody
 
 ![image](https://github.com/user-attachments/assets/f24a61ae-2ec0-4790-8f4d-96188c7f587b)
 
+# Truthtown News
+
 # JD Vance Joins Boyscouts
 
 WASHINGTON, D.C. — In an unprecedented move, President Trump signed Executive Order 14723-56vn today, granting Senator JD Vance (R-OH) special permission to join the Boy Scouts of America at the age of 40. The order, citing "patriotic enrichment and leadership immersion," allows Vance to enter the organization as a first-year Scout, bypassing age restrictions.
