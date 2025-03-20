@@ -24,7 +24,43 @@ When asked if he planned to go all the way to Eagle Scout, Vance chuckled. “Th
 ![2](https://github.com/user-attachments/assets/11f3679c-e5ed-4a9c-8b76-cc8711aef727)
 ![3](https://github.com/user-attachments/assets/f9316d50-6438-45e1-8bf5-5bda331d4faa)
 
- 
+# The Affordable Egg
+
+# Iron Curtain CrossFit: Marjorie and Jean-Claude’s Slavic Sweat Revolution
+
+In an unprecedented partnership that left both political analysts and fitness experts scratching their heads, Congresswoman Marjorie Taylor Greene and action movie legend Jean-Claude Van Damme announced the grand opening of their new CrossFit gym chain, Iron Curtain CrossFit, across the great nation of Belarus.
+
+“This is about FREEDOM and FITNESS,” Greene declared at the Minsk grand opening, flexing her biceps while standing next to a life-size cardboard cutout of herself draped in an American flag. “The deep state doesn’t want you to be strong, but we’re here to change that.”
+
+Van Damme, dressed in a red tracksuit and practicing his signature splits between two kettlebells, nodded solemnly. “Strength is not just muscle. Strength is discipline, power, and the ability to do a spinning back-kick on demand,” he said in a thick Belgian accent, despite speaking flawless English.
+
+## The Vision: Part Fitness, Part Political Re-Education
+
+The gym franchise, with locations popping up from Minsk to Gomel, boasted an intense, if unconventional, regimen. Workouts included:
+
+- **The Deep State Deadlift**: Participants deadlift a weighted ballot box rumored to contain rigged election votes from Georgia.
+- **The Soviet Split**: Inspired by Van Damme’s famous flexibility, gym-goers must perform splits over two Soviet-era tanks while listening to motivational speeches about personal liberty.
+- **The Putin Press**: A bench press challenge where lifters are encouraged to “press through the lies of mainstream media.”
+- **Bear Wrestling Cool-Down**: A post-workout relaxation technique involving light grappling with a mildly sedated Belarusian bear named “Democracy.”
+
+## Lukashenko Endorses the Movement
+
+In a shocking turn of events, Belarusian President Alexander Lukashenko gave Iron Curtain CrossFit his full endorsement. “I see in Marjorie Taylor Greene the same visionary leadership I see in myself,” he declared while personally demonstrating a 250kg squat. “And Van Damme? He reminds me of my youth, when I too could do the splits. This is a good fitness program for strong Belarus.”
+
+Some gym members, however, were less convinced. “I thought this was just going to be normal CrossFit,” said Dimitri, a confused Minsk local. “But now I’m listening to conspiracy theories about Jewish space lasers while swinging a kettlebell shaped like Donald Trump’s head.”
+
+## Global Expansion Plans
+
+Despite international skepticism, Greene and Van Damme have ambitious plans. “First Belarus,” Greene shouted at a press conference, “then we take Moscow! And then… back to America, where we’ll be STRONG ENOUGH to fight the REAL enemy—vegan yoga instructors!”
+
+Van Damme, wiping sweat from his brow, simply smiled. “Fitness is the bridge between worlds,” he whispered, before executing a perfect roundhouse kick through a life-size cardboard cutout of Anthony Fauci.
+
+## Final Thoughts
+
+Only time will tell if Iron Curtain CrossFit will become a global phenomenon or collapse under the weight of its own absurdity. Until then, Belarusian citizens can enjoy the sight of Jean-Claude Van Damme doing slow-motion punches in the snow while Marjorie Taylor Greene screams about chemtrails in the background.
+
+The future of fitness has never been more… confusing.
+
 ## Legal Notice
 
 This website is for entertainment purposes only. It is a parody site and is not affiliated with, endorsed by, or associated with any individuals, companies, or entities referenced herein. Any similarities to real persons, businesses, or organizations are purely coincidental or satirical.
