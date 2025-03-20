@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The National Squire - A True Parody</title>
+    <style>
+        :root {
+            --main-red: #cc0000;
+            --dark-red: #990000;
+            --light-gray: #f2f2f2;
+            --border-gray: #e6e6e6;
+            --text-dark: #222222;
+            --text-medium: #555555;
+            --link-blue: #0078ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: white;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--link-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: white;
+            border-bottom: 1px solid var(--border-gray);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: var(--main-red);
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            font-weight: normal;
+            font-size: 18px;
+            color: var(--text-medium);
+            display: block;
+            text-transform: none;
+        }
+
+        .nav-menu {
+            background-color: var(--main-red);
+            color: white;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            padding: 10px 15px;
+        }
+
+        .nav-list li a {
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-list li:hover {
+            background-color: var(--dark-red);
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px 0;
+        }
+
+        .breaking-news {
+            background-color: var(--light-gray);
+            border-left: 4px solid var(--main-red);
+            padding: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .featured-story {
+            margin-bottom: 30px;
+        }
+
+        .featured-story h1 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .story-meta {
+            font-size: 14px;
+            color: var(--text-medium);
+            margin-bottom: 15px;
+        }
+
+        .story-content {
+            margin-bottom: 20px;
+        }
+
+        .story-content p {
+            margin-bottom: 15px;
+        }
+
+        .top-stories {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .story-card {
+            border: 1px solid var(--border-gray);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .story-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .story-card-content {
+            padding: 15px;
+        }
+
+        .story-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .story-card p {
+            font-size: 14px;
+            color: var(--text-medium);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--light-gray);
+            border-top: 1px solid var(--border-gray);
+            padding: 20px 0;
+            font-size: 14px;
+            color: var(--text-medium);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .footer-column h4 {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 5px;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-gray);
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .nav-list {
+                flex-wrap: wrap;
+            }
+            
+            .top-stories {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    The National Squire
+                    <span>A True Parody</span>
+                </div>
+                <div class="search">
+                    <!-- Placeholder for search functionality -->
+                </div>
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Style</a></li>
+                    <li><a href="#">Travel</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="breaking-news">
+            BREAKING: Reality Takes a Holiday - Satire Fills the Void
+        </div>
+
+        <section class="featured-story">
+            <h1>JD Vance Joins Boyscouts at Age 40</h1>
+            <div class="story-meta">
+                By The National Squire Staff | Updated March 20, 2025
+            </div>
+            <img src="/api/placeholder/800/450" alt="JD Vance in Boy Scout uniform" class="featured-image">
+            <div class="story-content">
+                <p>WASHINGTON, D.C. — In an unprecedented move, President Trump signed Executive Order 14723-56vn today, granting Senator JD Vance (R-OH) special permission to join the Boy Scouts of America at the age of 40. The order, citing "patriotic enrichment and leadership immersion," allows Vance to enter the organization as a first-year Scout, bypassing age restrictions.</p>
+                
+                <p>"This is about going back to our roots," Vance said in a press conference, proudly displaying his freshly earned "Fire Safety" badge. "America needs leaders who understand discipline, survival, and knot-tying. We need more young men — and, apparently, middle-aged ones — who embrace the values of scouting."</p>
+                
+                <p>The decision has sparked debate. While supporters hail it as an inspiring example of lifelong learning, critics argue that it sets a strange precedent. "What's next? AARP opening its doors to toddlers?" quipped political analyst Sam Whitmore.</p>
+                
+                <p>Despite the controversy, Vance has thrown himself into scouting life. He has been seen participating in troop meetings, camping trips, and even selling popcorn door-to-door. Rumors abound that he is particularly eager to earn his "Citizenship in the Nation" merit badge, though sources indicate he struggled with the written portion.</p>
+                
+                <p>When asked if he planned to go all the way to Eagle Scout, Vance chuckled. "That depends on how well I do in orienteering," he admitted. "I'm still working on my compass skills."</p>
+            </div>
+        </section>
+
+        <h2 style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--main-red);">Top Stories</h2>
+        
+        <section class="top-stories">
+            <div class="story-card">
+                <img src="/api/placeholder/400/200" alt="CrossFit gym" class="story-card-img">
+                <div class="story-card-content">
+                    <h3>Iron Curtain CrossFit: Marjorie and Jean-Claude's Slavic Sweat Revolution</h3>
+                    <p>In an unprecedented partnership that left both political analysts and fitness experts scratching their heads, Congresswoman Marjorie Taylor Greene and action movie legend Jean-Claude Van Damme announced the grand opening of their new CrossFit gym chain in Belarus.</p>
+                    <a href="#">Read more →</a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="/api/placeholder/400/200" alt="Matt Gaetz at prison" class="story-card-img">
+                <div class="story-card-content">
+                    <h3>Matt Gaetz Goes to El Salvador's Notorious Prison to Rescue His "Totally American" Uncle</h3>
+                    <p>Congressman Matt Gaetz shocked the world when he arrived in El Salvador demanding entry into the infamous Centro de Confinamiento del Terrorismo to rescue his long-lost uncle, Earl "Bubba" Gaetz III.</p>
+                    <a href="#">Read more →</a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="/api/placeholder/400/200" alt="Steve Bannon portrait" class="story-card-img">
+                <div class="story-card-content">
+                    <h3>The Double Life of Steve Bannon: Clinton's Covert Operative in Trump's Inner Circle</h3>
+                    <p>In the labyrinthine world of political espionage, few tales are as improbable as that of Steve Bannon—a man who, while publicly orchestrating the rise of Donald Trump, was secretly advancing the interests of the Clintons.</p>
+                    <a href="#">Read more →</a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="/api/placeholder/400/200" alt="Diplomats at dinner" class="story-card-img">
+                <div class="story-card-content">
+                    <h3>Diplomacy & Desire: A Very Special Ukraine Peace Summit</h3>
+                    <p>It was supposed to be a historic moment—the long-awaited Ukraine peace talks between Russian and U.S. negotiators. Instead, it turned into something very different when the catering team got the orders mixed up.</p>
+                    <a href="#">Read more →</a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="/api/placeholder/400/200" alt="Elon Musk with golden goose" class="story-card-img">
+                <div class="story-card-content">
+                    <h3>Elon Musk and the Golden Goose: A Comedy of Errors</h3>
+                    <p>In a move that surprised absolutely no one, Elon Musk was appointed to lead the newly formed Department of Government Efficiency (DOGE). His mission? To streamline federal operations and teach the government how to launch rockets without exploding.</p>
+                    <a href="#">Read more →</a>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="/api/placeholder/400/200" alt="Maple syrup heist" class="story-card-img">
+                <div class="story-card-content">
+                    <h3>The Great Maple Syrup Heist: A Tale of Trump and Miller</h3>
+                    <p>Donald Trump and Stephen Miller hatched a plan in a dimly lit back room of Mar-a-Lago. Their goal: to seize control of Canada's lucrative maple syrup industry through Operation Sticky Fingers.</p>
+                    <a href="#">Read more →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="more-headlines">
+            <h2 style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--main-red);">More Headlines</h2>
+            <ul style="list-style-position: inside; margin-bottom: 30px;">
+                <li><a href="#">Trump's Unlikely Tech Coup: How Zuckerberg and Bezos Lost Their Fortunes</a></li>
+                <li><a href="#">White House Pet Update: First Goldfish Appointed as Secretary of the Interior</a></li>
+                <li><a href="#">Congress Passes Bill Requiring All Politicians to Wear Sponsor Logos</a></li>
+                <li><a href="#">New Study Shows 87% of Americans Can't Locate Their Own State on a Map</a></li>
+                <li><a href="#">Exclusive: Area Man Actually Reads Terms and Conditions, Discovers Hidden Treasure Map</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>The National Squire</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertise with us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">World</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>More</h4>
+                    <ul>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>This website is for entertainment purposes only. It is a parody site and is not affiliated with, endorsed by, or associated with any individuals, companies, or entities referenced herein.</p>
+                <p>© 2025 The National Squire. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript to add some dynamic behavior
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add a click event to the breaking news banner
+            const breakingNews = document.querySelector('.breaking-news');
+            if (breakingNews) {
+                breakingNews.addEventListener('click', function() {
+                    alert('ALERT: This is a satirical news site. All content is fictional and meant for entertainment purposes only.');
+                });
+            }
+
+            // Add current date to the page
+            const today = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const dateElement = document.createElement('div');
+            dateElement.textContent = today.toLocaleDateString('en-US', options);
+            dateElement.style.textAlign = 'right';
+            dateElement.style.marginBottom = '20px';
+            dateElement.style.fontSize = '14px';
+            dateElement.style.color = '#555555';
+            
+            const container = document.querySelector('main.container');
+            container.insertBefore(dateElement, container.firstChild);
+        });
+    </script>
+</body>
+</html>
