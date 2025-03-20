@@ -1,0 +1,398 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo h1 {
+    color: #cc0000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo span {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    margin-right: 20px;
+}
+
+.search input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-right: none;
+    width: 200px;
+}
+
+.search button {
+    padding: 8px 12px;
+    background: #cc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user-menu a {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+nav {
+    border-top: 1px solid #eee;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 12px 15px;
+}
+
+nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+nav a.active, nav a:hover {
+    color: #cc0000;
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+
+.headline-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .headline-section {
+        grid-template-columns: 1.5fr 1fr;
+    }
+}
+
+.main-headline {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+}
+
+.headline-image {
+    margin-bottom: 15px;
+}
+
+.main-headline h2 {
+    font-size: 1.75rem;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+.main-headline p {
+    padding: 0 15px;
+    color: #666;
+}
+
+.sub-headlines {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.sub-headline {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sub-headline img {
+    margin-bottom: 10px;
+}
+
+.sub-headline h3 {
+    font-size: 1.25rem;
+    padding: 0 15px 15px;
+}
+
+.middle-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .middle-section {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.featured-stories, .trending {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.featured-stories h2, .trending h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cc0000;
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.story-card {
+    margin-bottom: 20px;
+}
+
+.story-card img {
+    margin-bottom: 10px;
+}
+
+.story-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.story-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.trending ul li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.trending ul li:last-child {
+    border-bottom: none;
+}
+
+.trending a {
+    font-weight: bold;
+}
+
+.trending a:hover {
+    color: #cc0000;
+}
+
+.bottom-banner {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+    background: #2a2a2a;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+
+.footer-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #cc0000;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #ccc;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: #999;
+}
+
+/* Article page styles */
+.article-container {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.article-header {
+    margin-bottom: 30px;
+}
+
+.article-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.article-header .meta {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.article-featured-image {
+    margin-bottom: 30px;
+}
+
+.article-content {
+    line-height: 1.8;
+}
+
+.article-content p {
+    margin-bottom: 20px;
+}
+
+.article-content h2 {
+    font-size: 1.75rem;
+    margin: 30px 0 15px;
+}
+
+.article-content ul, .article-content ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.article-content ul li, .article-content ol li {
+    margin-bottom: 10px;
+    list-style-position: outside;
+}
+
+.article-content ul {
+    list-style-type: disc;
+}
+
+.article-content ol {
+    list-style-type: decimal;
+}
+
+.related-articles {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+.related-articles h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Legal page */
+.legal-content {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.legal-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.legal-content h2 {
+    font-size: 1.5rem;
+    margin: 30px 0 15px;
+}
+
+.legal-content p {
+    margin-bottom: 15px;
+}
+
+/* Highlight on hover */
+.story-card:hover h3, 
+.main-headline:hover h2, 
+.sub-headline:hover h3 {
+    color: #cc0000;
+    transition: color 0.3s ease;
+}
