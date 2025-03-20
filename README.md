@@ -8,7 +8,7 @@ A True Parody
 
 # Truthtown News
 
-# JD Vance Joins Boyscouts
+## JD Vance Joins Boyscouts
 
 WASHINGTON, D.C. — In an unprecedented move, President Trump signed Executive Order 14723-56vn today, granting Senator JD Vance (R-OH) special permission to join the Boy Scouts of America at the age of 40. The order, citing "patriotic enrichment and leadership immersion," allows Vance to enter the organization as a first-year Scout, bypassing age restrictions.
 
@@ -28,7 +28,7 @@ When asked if he planned to go all the way to Eagle Scout, Vance chuckled. “Th
 
 # The Affordable Egg
 
-# Iron Curtain CrossFit: Marjorie and Jean-Claude’s Slavic Sweat Revolution
+## Iron Curtain CrossFit: Marjorie and Jean-Claude’s Slavic Sweat Revolution
 
 In an unprecedented partnership that left both political analysts and fitness experts scratching their heads, Congresswoman Marjorie Taylor Greene and action movie legend Jean-Claude Van Damme announced the grand opening of their new CrossFit gym chain, Iron Curtain CrossFit, across the great nation of Belarus.
 
